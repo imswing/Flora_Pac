@@ -668,11 +668,11 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Generate proxy auto-config rules.")
     parser.add_argument('-x', '--proxy',
                         dest    = 'proxy',
-                        default = 'SOCKS5 127.0.0.1:8964; SOCKS 127.0.0.1:8964; DIRECT',
+                        default = 'SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT',
                         nargs   = '?',
                         help    = "Proxy Server, examples: "
-                                  "SOCKS5 127.0.0.1:8964; "
-                                  "SOCKS 127.0.0.1:8964; "
+                                  "SOCKS5 127.0.0.1:1080; "
+                                  "SOCKS 127.0.0.1:1080; "
                                   "PROXY 127.0.0.1:6489")
     parser.add_argument('-p', '--port',
                         dest    = 'port',
