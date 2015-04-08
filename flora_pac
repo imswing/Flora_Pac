@@ -673,7 +673,7 @@ if __name__ == '__main__':
                         help    = "Proxy Server, examples: "
                                   "SOCKS5 127.0.0.1:1080; "
                                   "SOCKS 127.0.0.1:1080; "
-                                  "PROXY 127.0.0.1:6489")
+                                  "PROXY 127.0.0.1:1080")
     parser.add_argument('-p', '--port',
                         dest    = 'port',
                         default = '0',
